@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.template-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.template-link {
+    margin: 1rem;
+    padding: 1rem;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.template-link:hover {
+    background: #0056b3;
+}
